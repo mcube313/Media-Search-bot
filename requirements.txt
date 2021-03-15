@@ -1,4 +1,4 @@
-https://github.com/Mahesh0253/pyrogram/archive/beta.zip
+telethon==1.21
 TgCrypto==1.2.2
 
 # for reading .env files
