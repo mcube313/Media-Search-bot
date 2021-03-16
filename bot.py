@@ -125,7 +125,7 @@ async def handler(event: events.InlineQuery.Event):
     # LOGGER(__name__).info(event.stringify())
     start_at = int(event.offset or 0)
     limit = 9
-    new_offset = start_at + limit
+    new_offset = str(start_at + limit)
     search_query = event.query.query
     search_results = []
     switch_pm_text_s = ""
