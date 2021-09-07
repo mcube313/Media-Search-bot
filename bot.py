@@ -183,8 +183,8 @@ async def _(evt: events.NewMessage.Event):
         return
 
     await evt.reply(
-        "no one gonna help you 🤣🤣🤣🤣",
-        file="CAADAgADhAoAAowucAABsO2D_l8Q4twC",
+        "Help To Find Files",
+        file="CAACAgUAAxkBAAEBWs9hN7s2Vl_7Ta0Faoau9Y9_N5WwkQACMAQAAkO5sVXoQIxpJHXYZh4E",
         buttons=[
             [
                 Button.switch_inline(
@@ -201,7 +201,7 @@ async def _(evt: events.NewMessage.Event):
             [
                 Button.url(
                     text="✅ I agree to the TnC",
-                    url="https://t.me/SpEcHlDe/1303"
+                    url="https://t.me/mcubemediaofficial"
                 )
             ]
         ]
