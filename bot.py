@@ -184,7 +184,7 @@ async def _(evt: events.NewMessage.Event):
 
     await evt.reply(
         "Help To Find Files",
-        file="CAACAgUAAxkBAAEBWs9hN7s2Vl_7Ta0Faoau9Y9_N5WwkQACMAQAAkO5sVXoQIxpJHXYZh4E",
+        file="https://telegra.ph/file/e039872f9feb928c8bfae.png",
         buttons=[
             [
                 Button.switch_inline(
